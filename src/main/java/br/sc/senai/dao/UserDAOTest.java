@@ -15,9 +15,9 @@ public class UserDAOTest {
         entityManager.getTransaction().begin();
 
         User newUser = new User();
-        newUser.setEmail('emailteste@email.com');
-        newUser.setFullname('emailteste@email.com');
-        newUser.setPassword('emailteste@email.com');
+        newUser.setEmail("emailteste@email.com");
+        newUser.setFullname("Rafael Marinho Gomes");
+        newUser.setPassword("123456");
 
         entityManager.persist(newUser);
 
