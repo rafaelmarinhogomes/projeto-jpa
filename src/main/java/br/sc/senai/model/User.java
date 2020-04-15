@@ -3,7 +3,7 @@ package br.sc.senai.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "cargo")
+@Table(name = "user")
 public class User {
 
     @Id
